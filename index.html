@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-pt-40 sm:scroll-pt-24">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ymeay Mejias | Student Portfolio</title>
+        <meta
+            name="description"
+            content="Ymeay Mejias’s first-year IT portfolio: beginner web projects, class notes, and the skills he is learning."
+        >
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+
+            a:focus-visible {
+                outline: 3px solid #fcd34d;
+                outline-offset: 5px;
+            }
+
+            .skip-link {
+                position: fixed;
+                z-index: 60;
+                top: -80px;
+                left: 20px;
+                padding: 10px 16px;
+                background-color: #1c1917;
+                color: #ffffff;
+            }
+
+            .skip-link:focus {
+                top: 10px;
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                html {
+                    scroll-behavior: auto;
+                }
+
+                a {
+                    transition: none;
+                }
+            }
+        </style>
+    </head>
+    <body class="bg-stone-900 pt-36 font-serif leading-relaxed text-stone-100 sm:pt-20">
+        <a class="skip-link" href="#main">Skip to content</a>
+        <header
+            class="fixed inset-x-0 top-0 z-50 h-36 border-b border-stone-600 bg-stone-900/95 backdrop-blur-sm sm:h-20"
+        >
+            <div
+                class="mx-auto flex h-full max-w-6xl flex-wrap items-center justify-between gap-5 px-6 py-5"
+            >
+                <a class="text-xl font-semibold tracking-tight" href="#home">Ymeay Mejias<span class="text-amber-300">.</span></a>
+                <nav class="flex w-full flex-wrap gap-5 sm:w-auto" aria-label="Main navigation">
+                    <a class="text-stone-300 hover:text-amber-300 py-2 text-sm" href="#home">Home</a>
+                    <a class="text-stone-300 hover:text-amber-300 py-2 text-sm" href="#about">About</a>
+                    <a class="text-stone-300 hover:text-amber-300 py-2 text-sm" href="#skills">Skills</a>
+                    <a class="text-stone-300 hover:text-amber-300 py-2 text-sm" href="#projects">Projects</a>
+                    <a class="text-stone-300 hover:text-amber-300 py-2 text-sm" href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main id="main" class="mx-auto max-w-6xl px-6" tabindex="-1">
+            <section
+                id="home"
+                class="grid items-center gap-12 py-12 md:grid-cols-2 md:py-16"
+                aria-label="Introduction"
+            >
+                <div>
+                    <p class="mb-5 font-mono text-sm text-amber-300">BSIT / FIRST YEAR</p>
+                    <h1 class="mb-6 text-5xl font-semibold leading-tight tracking-tight md:text-6xl">Hi, I’m Ymeay!<br><span class="text-amber-300">Turning Curiosity.<br>Into CODE.</span></h1>
+                    <p class="max-w-xl text-lg text-slate-300">
+                        I'm a 1st year student who is passionate about technology, design, and creating meaningful digital experiences. 
+                        This portfolio showcases my skills, projects, and the journey I'm on to become a better version of myself 
+                    </p>
+                    <div class="mt-8 flex flex-wrap items-center gap-6">
+                        <a
+                            class="rounded bg-amber-300 px-5 py-3 font-semibold text-stone-900 transition hover:bg-amber-200"
+                            href="#projects"
+                        >
+                            See my projects
+                        </a>
+                        <a
+                            class="text-stone-100 underline underline-offset-4 hover:text-amber-300"
+                            href="#about"
+                        >
+                            More about me
+                        </a>
+                    </div>
+                </div>
+                <figure class="mx-auto w-full max-w-sm">
+                    <img
+                        class="w-full rounded-md bg-stone-800 object-contain"
+                        src="assets/images/ymeay-face.png"
+                        alt="Illustrated avatar of Kai wearing glasses, a slate hoodie, and a soft-blue shirt"
+                        width="600"
+                        height="600"
+                    >
+                    <figcaption class="mt-3 flex justify-between gap-4 text-xs text-stone-300"><span>Ymeay Mejias</span><span>First year · BSIT</span></figcaption>
+                </figure>
+            </section>
+            <section
+                id="about"
+                class="grid gap-12 border-t border-stone-600 py-16 md:grid-cols-2"
+                aria-labelledby="about-title"
+            >
+                <div>
+                    <p class="mb-4 font-mono text-sm text-amber-300">ABOUT ME</p>
+                    <h2 id="about-title" class="mb-6 text-3xl font-semibold tracking-tight md:text-4xl">Exploring the world of Technology,<br>one project at a time.</h2>
+                    <p class="mb-5 text-stone-300">
+                        I'm Ymeay Morene N. Mejias, a 1st year BSIT student from Cordova Public College. I'm interested in web development, 
+                        graphic design, and technology. I enjoy learning new things and challenging myself to improve my skills. 
+                    </p>
+                    <p class="mb-5 text-stone-300">
+                        Through school activities and personal projects, I've developed my creativity, teamwork, communication, 
+                        and problem-solving abilities.
+                    </p>
+                    <p class="text-stone-300">
+                        I am also eager to gain more experience, explore new ideas, and apply my knowledge to create 
+                        meaningful and useful digital projects in the future.
+                    </p>
+                </div>
+                <div>
+                    <aside class="rounded-md bg-stone-800 p-6">
+                        <p class="mb-4 font-mono text-xs text-amber-300">MY EDUCATION CHAPTER</p>
+                        <h3 class="mb-3 text-xl font-semibold">BS Information Technology</h3>
+                        <p class="mb-4 text-stone-300">Cordova Public College<br>First year · 2026 — Present</p>
+                        <p class="text-sm text-stone-300">Learning programming, web development, and the basics of information technology.</p>
+                    </aside>
+                    <p class="mt-6 text-stone-300">
+                        This year, I want to build more websites, improve my graphic design skills, and keep
+                        growing as a developer and designer 
+                    </p>
+                </div>
+            </section>
+            <section id="skills" class="py-16" aria-labelledby="skills-title">
+                <p class="mb-4 font-mono text-sm text-amber-300">WHAT I’M LEARNING</p>
+                <h2 id="skills-title" class="mb-8 text-3xl font-semibold tracking-tight md:text-4xl">Skills I'm building.</h2>
+                <div class="grid gap-x-12 md:grid-cols-2">
+                    <article class="border-t border-stone-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-amber-300">01 / WEB BASICS</p>
+                        <h3 class="mb-3 text-2xl font-semibold">HTML5</h3>
+                        <p class="text-stone-300">
+                            I use HTML to build the structure of a page, from headings and links to images and
+                            forms.
+                        </p>
+                    </article> 
+                    <article class="border-t border-stone-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-amber-300">02 / STYLING</p>
+                        <h3 class="mb-3 text-2xl font-semibold">CSS3</h3>
+                        <p class="text-stone-300">
+                            I style pages with CSS, using Flexbox and grids to keep layouts neat on both laptop
+                            and phone screens.
+                        </p>
+                    </article>
+                    <article class="border-t border-stone-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-amber-300">03 / FAST STYLING</p>
+                        <h3 class="mb-3 text-2xl font-semibold">Tailwind CSS</h3>
+                        <p class="text-stone-300">
+                            I use utility classes to set colors, spacing, and responsive layouts quickly while
+                            keeping my code easy to read.
+                        </p>
+                    </article>
+                    <article class="border-t border-stone-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-amber-300">04 / VISUAL DESIGN</p>
+                        <h3 class="mb-3 text-2xl font-semibold">Programming basics</h3>
+                        <p class="text-stone-300">
+                            I enjoy creating layouts, choosing colors, and matching fonts so that a page looks
+                            clean and organized.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section id="projects" class="py-16" aria-labelledby="projects-title">
+                <div class="mb-10 grid items-end gap-6 md:grid-cols-2">
+                    <div>
+                        <p class="mb-4 font-mono text-sm text-amber-300">MY PROJECTS</p>
+                        <h2 id="projects-title" class="text-3xl font-semibold tracking-tight md:text-4xl">What I’ve made so far.</h2>
+                    </div>
+                    <p class="text-stone-300">A few projects that show what I can do. Select an image preview to see each one.</p>
+                </div>
+                <div class="space-y-12">
+                    <article class="grid items-center gap-8 border-t border-stone-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="assets/images/firstpersonalme.png"
+                            alt="A simple slate and blue personal profile page with an introduction and interests"
+                            width="800"
+                            height="500"
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-xs text-amber-300">01 / HTML </p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">Personal About Me Webpage</h3>
+                            <p class="mb-5 text-stone-300">
+                                A simple personal webpage created using HTML. This project allowed me to practice basic web structure, 
+                                headings, paragraphs, and organizing information into a functional webpage.
+                            </p>
+                            <a
+                                class="text-sm text-amber-300 underline underline-offset-4 hover:text-amber-200"
+                                href="assets/images/firstpersonalme.png"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                    <article class="grid items-center gap-8 border-t border-stone-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="assets/images/second-ymeaytech.png"
+                            alt="A warm white restaurant menu with blue headings and a short list of meals"
+                            width="800"
+                            height="500"
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-xs text-amber-300">02 / HTML &amp; CSS</p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">Ymeay's Tech Shop</h3>
+                            <p class="mb-5 text-stone-300">
+                                Created a Computer Repair Service Request webpage using HTML and CSS. This activity helped me practice creating tables,
+                                forms, different input types,dropdowns, radio buttons, checkboxes, and buttons while improving my skills
+                                in designing a simple and user-friendly webpage.
+                            </p>
+                            <a
+                                class="text-sm text-amber-300 underline underline-offset-4 hover:text-amber-200"
+                                href="assets/images/second-ymeaytech.png"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                    <article class="grid items-center gap-8 border-t border-stone-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="assets/images/thirdpersonalport.png"
+                            alt="A clean blue and white HTML table showing a weekly study schedule"
+                            width="800"
+                            height="500"
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-xs text-amber-300">03 / HTML &amp; TAILWIND</p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">My Personal Portfolio Design</h3>
+                            <p class="mb-5 text-stone-300">
+                                A personal portfolio website designed to introduce myself, showcase my skills and experiences, and present my work. I focused on
+                                creating a clean and organized layout that represents me as a BSIT student.
+                            </p>
+                            <a
+                                class="text-sm text-amber-300 underline underline-offset-4 hover:text-amber-200"
+                                href="assets/images/thirdpersonalport.png"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section
+                id="contact"
+                class="grid items-start gap-12 border-t border-stone-600 py-16 md:grid-cols-2"
+                aria-label="Contact"
+            >
+                <div>
+                    <p class="mb-4 font-mono text-sm text-amber-300">CONTACT</p>
+                    <h2 class="mb-6 text-4xl font-semibold tracking-tight md:text-5xl">Let's connect<br>and create together!</h2>
+                    <p class="max-w-lg text-stone-300">
+                        Whether you have a project idea, a design to share, or a question about web development, I’d
+                        love to hear from you. Send me an email and I’ll get back to you soon.
+                    </p>
+                </div>
+                <div class="rounded-md bg-stone-800 p-6 md:p-8">
+                    <p class="mb-4 text-sm text-stone-300">Reach me at</p>
+                    <a
+                        class="break-words text-xl font-semibold text-amber-300 underline underline-offset-4 hover:text-amber-200"
+                        href="mailto:mejias.morene@example.com"
+                    >
+                        mejias.morene@gmail.com
+                    </a>
+                    <div class="mt-8 border-t border-stone-600 pt-5 text-sm text-stone-300">
+                        <p>Cebu City, Philippines</p>
+                        <p class="mt-2">Cordova Public College · BSIT</p>
+                        <p class="mt-4">Open to collaborations and new ideas.   </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="border-t border-stone-600">
+            <div
+                class="mx-auto flex max-w-6xl flex-wrap justify-between gap-3 px-6 py-6 text-sm text-stone-300"
+            >
+                <p>© 2026 Ymeay Mejias</p>
+                <p>BSIT, first year · Cordova, Cebu City</p>
+            </div>
+        </footer>
+    </body>
+</html>
